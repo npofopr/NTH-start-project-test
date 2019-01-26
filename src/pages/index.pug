@@ -17,6 +17,13 @@ block content
   h1 Заголовок
   p Содержимое. #[a(href='blocks-demo.html') Библиотека блоков].
 
+  .test2
+    | стили от блока test
+
+  .test__two
+    | стили от bem элемента без своего блока
+
+
 block footer
   +page-footer()
     p «Подвал»
